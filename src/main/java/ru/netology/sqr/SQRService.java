@@ -7,7 +7,7 @@ public class SQRService {
         int squared;
         for (int i = 10; i <= 99; i++) {
             squared = i * i;
-            if ((i * i >= lowerLimit) && (i * i <= upperLimit)) {
+            if ((squared >= lowerLimit) && (squared <= upperLimit)) {
                 count = count + 1;
             }
         }
